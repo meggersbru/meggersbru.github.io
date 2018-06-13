@@ -11,7 +11,7 @@
 	color: #fff;
 }
 .bg-gray {
-	background: #484848;
+	background: #555555;
 }
 .bg-white {
 	background: #fff;
@@ -21,32 +21,51 @@
     background-color: #fff !important;
 }
 .top-bar ul {
-	border-bottom: 1px solid #000;
+  border-bottom: 1px solid #e5e5e5;
+}
+.top-bar li {
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
 }
 .top-bar-left ul li:nth-child(1) {
-	border-bottom: 5px solid purple;
+	border-bottom: 5px solid #6F2A8E;
 }
 .top-bar-left ul li:nth-child(2) {
-	border-bottom: 5px solid red;
+	border-bottom: 5px solid #B32017;
 }
 .top-bar-left ul li:nth-child(3) {
-	border-bottom: 5px solid blue;
+	border-bottom: 5px solid #0F6CB6;
 }
 .top-bar-left ul li:nth-child(4) {
-	border-bottom: 5px solid orange;
+	border-bottom: 5px solid #EA7F1E;
 }
 .top-bar-left ul li:nth-child(5) {
-	border-bottom: 5px solid green;
+	border-bottom: 5px solid #00B1B0;
 }
 .top-bar-left ul li:nth-child(6) {
-	border-bottom: 5px solid yellow;
+	border-bottom: 5px solid #B9B309;
 }
 .top-bar-right ul li:nth-child(1) {
-	border-bottom: 5px solid yellow;
+	border-bottom: 5px solid #ffcb05;
+  border-right: none;
+}
+
+.title {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .video-button {
 	background: #000;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .video-button {
+    display: none;
+  }
 }
 
 .video-links {
